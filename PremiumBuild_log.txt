@@ -1,0 +1,226 @@
+<!-- Author: [Developer], Date and hours: [DD]/[MM]/[AA], [hh]:[mm] P.M. -->
+
+
+
+<!-- ******************** START [COMPANY] ******************** -->
+
+
+<!-- ---------------------------------------- START TICKET INFO ---------------------------------------- -->
+
+Email by:
+Ticket #: [Ticket_#]
+AccDID: [AccID]
+TNDID:
+Invision link:
+[INVISION_LINK]
+
+Template: Premium
+Costumer name: [COMPANY]
+
+Preview link: [PREVIEW_LINK]
+
+==================================
+Description:
+
+[ORIGINAL_DESCRIPTION]
+
+
+<!-- ---------------------------------------- END TICKET INFO ---------------------------------------- -->
+
+
+
+<!-- ---------------------------------------- START UPDATES ---------------------------------------- -->
+
+Display name:
+[site-name]
+
+Hostname:
+-cms-preprod.cbtalentnetwork.com
+
+Site Meta Description:
+Get job alerts, search or apply to open positions at [site-name] Career Site.
+
+Homepage Meta Title:
+Jobs and Careers at [site-name]
+
+Default Page Name:
+[site-name] Careers
+
+Favicon:
+^media_src_favicon.png^
+
+Meta Image Media Name:
+^media_src_site-logo-meta.png^
+
+
+#### GOOGLE DRIVE AND DROPBOX ####
+
+Google Drive (https://xxx-cms-preprod.cbtalentnetwork.com [without / at the end]):
+https://xxx-cms-preprod.cbtalentnetwork.com
+
+Google Browser Key (*.xxx-cms-preprod.cbtalentnetwork.com/* [add /* at the end]):
+*.xxx-cms-preprod.cbtalentnetwork.com/*
+
+Dropbox (https://xxx-cms-preprod.cbtalentnetwork.com [without https:// at the begin]):
+xxx-cms-preprod.cbtalentnetwork.com
+
+<!-- ---------------------------------------- END UPDATES ---------------------------------------- -->
+
+
+
+================================== START BACKUPS ===========================================
+
+Site Specific CSS Content: backup/css/specific-content.css
+
+
+================================== END BACKUPS ==============================================
+
+
+
+<!-- ---------------------------------------- START EMAIL SUBMITTER ---------------------------------------- -->
+
+Premium QA Ticket
+
+New/ Browse/ GPS Fulfillment:
+
+Title: Premium TSE QA - [COMPANY]
+Number of Items:
+Request Type: Premium TSE QA
+Task Type: New Build
+AccountDID: [AccID]
+Company Name: [COMPANY]
+Preview link: [PREVIEW_LINK]
+
+***************************************************
+DESCRIPTION:
+
+Ticket #: [Ticket_#]
+Worked by: [Developer]
+URL: [PREVIEW_LINK]
+Invision link: [INVISION_LINK]
+
+### Notes ###
+
+#### Original ticket description ####
+
+Description:
+
+[ORIGINAL_DESCRIPTION]
+
+
+====================================================
+Close request
+**************
+
+Hi,
+
+The build is ready.
+
+Preview link to the premium site:
+[PREVIEW_LINK]
+
+Please find QA form attached at:
+
+If you have any question, please let me know.
+
+Regards,
+
+[Developer]
+Global Partner Support Team
+
+************************************************
+Company Name: [COMPANY]
+Name of Build: Premium Build - [COMPANY]
+Preview Link: [PREVIEW_LINK]
+************************************************
+
+<!-- ---------------------------------------- END EMAIL SUBMITTER ---------------------------------------- -->
+
+
+TEST TNDID: TNSQ7HX69YDKJ6FCP007
+
+====================================================
+QA Calendar
+************
+
+Subject: New build to add in the QA calendar
+--------------------------------------------
+
+Hi Team,
+
+[COMPANY]
+New Build - Ticket #[Ticket_#]
+X Content Pages + X Featured Pages
+
+SLA: xx/xx/xx- EOD
+I'll finish this: xx/xx/xx - EOD
+
+Invision link: [INVISION_LINK]
+
+Regards,
+
+====================================================
+QA Feedback
+************
+
+Subject: [COMPANY] Feedback
+---------------------------
+
+
+Hi team,
+
+The QA feedback updates are ready.
+
+Please see attached QA feedback.
+
+[PREVIEW_LINK]
+
+Regards,
+
+
+====================================================
+SLA update
+******************
+
+Hi,
+
+This is regarding the [COMPANY] ticket.
+
+- The correct SLA including the X content pages and the X featured pages is going to be on November 9th. If there are any questions/comments please do not hesitate to let me know.
+
+Regards,
+
+[Developer]
+Global Partner Support
+
+<!-- ******************** END [COMPANY] ******************** -->
+
+====================================================
+Premium URL Internals:
+**********************
+
+/search
+/jobsamplepage
+/join
+/browse-by-location
+/ApplyFinish/J3J30C6XBH6S8K4VXDF
+/editpreference/TMTY125789FFX7GJ8Z2H
+/unsubscribe/TMTY125789FFX7GJ8Z2H
+/wrongurl
+/privacy-policy
+/terms-and-conditions
+
+/search-widget
+
+====================================================
+Email to submitter
+******************
+
+Hi,
+
+This is regarding the [COMPANY] ticket.
+
+Regards,
+
+[Developer]
+Global Partner Support Team
