@@ -58,13 +58,6 @@ a{
   color: $white;
 }
 
-/// Hide location dropdown for development
-@if $hide-dropdown {
-  .hide-for-build-development{
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
 
   h1{

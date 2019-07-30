@@ -42,14 +42,6 @@
   white-space: nowrap;
 }
 
-/// Hide "Not Ready To Apply" section on the Join Form page and After Apply page
-.hide-not-ready + .not-ready,
-.hide-not-ready + style + .not-ready,
-.hide-not-ready + footer > .not-ready,
-.hide-not-ready + style + footer > .not-ready{
-  display: none;
-}
-
 /// Center images
 img{
   margin: 0 auto;

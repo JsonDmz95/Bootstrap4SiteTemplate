@@ -36,28 +36,5 @@ $internals-titles: $primary-color;
 
 $body-color: $white;
 
-/// For search box (labels inline with the inputs)
-$label-inline: false; /// <- true or false (default false)
-
-/// For search small (similar as the mobile search)
-$search-small: false; /// <- true or false (default false)
-
-
-/// Hide location dropdown
-$hide-dropdown: false; /// <- true or false (default false)
-
-/// Hide cookies bar
-$hide-cookies-bar: true; /// <- true or false (default false)
-
-// Multi-brand is enable
-$multi-brand: false; /// <- true or false (default false)
-
-
-/// For rounded facets
-$rounded-facet: false; /// <- true or false (default false)
-
-/// For full facets
-$full-facet: false; /// <- true or false (default false)
-
 
 $base-url: '/assets/' !default;

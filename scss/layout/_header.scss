@@ -2,8 +2,13 @@ header {
 	background-color: $primary-color;
 	position: relative;
 
+	.navbar-brand{
+		width: 100%;
+		max-width: 200px;
+	}
+
 	.navbar {
-		padding: 15px;
+		padding: 15px 0px;
 
 		.navbar-toggler {
 			background-color: transparent;
@@ -100,13 +105,13 @@ header {
 
 				li {
 					.nav-link  {
-						font-size: 30pt;
-						font-weight: 500;
+						font-size: 30px;
+						font-weight: 700;
 						padding-left: 0px;
 						padding-right: 0px;
 						text-transform: capitalize;
 						color: $white;
-						letter-spacing: letter-spacing(30pt, 50);
+						letter-spacing: letter-spacing(30px, 50);
 						position: relative;
 						transition: all ease 0.5s;
 						text-align: center;
@@ -177,99 +182,60 @@ header {
 		}
 	}
 
-	.info-toggle {
-		background: $secondary-color;
-		border: none;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		bottom: auto;
-		left: auto;
-		height: 60px;
-		width: 60px;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
+}
 
+@media (min-width: 768px){
+	header{
+		.navbar-expand-md{
+			.navbar-toggler{
+				display: none;
+			}
 
-		&:focus {
-			outline: none;
-		}
+			.navbar-collapse{
+				position: relative;
+				height: auto !important;
+				width: auto !important;
+				transform: scale(1);
+				background: transparent;
 
-		.fas {
-			font-size: 30px;
-			color: $white;
-			line-height: 1;
-			-webkit-transform: rotate(360deg);
-			transform: rotate(360deg);
-			-webkit-transform-origin: center;
-			transform-origin: center;
-			-webkit-transition: all ease 0.5s;
-			transition: all ease 0.5s;
-		}
+				ul.navbar-nav{
+					height: auto;
+					flex-direction: row;
+					justify-content: flex-end;
+					padding: 0px;
+					opacity: 1 !important;
+					transition: none;
 
-		&.collapsed {
-			.fas {
-				-webkit-transform: rotate(0deg);
-				transform: rotate(0deg);
+					li {
+						.nav-link{
+							padding: 0px;
+							font-size: 16px;
+
+							&::before{
+								height: 3px;
+							}
+						}
+
+						&+li{
+							margin-left: 30px;
+						}
+
+						&.dropdown{
+							.dropdown-menu{
+								background: $white;
+								top: calc(100% + 10px);
+								.nav-link{
+									padding: 15px;
+									color: $text-color;
+									text-align: left;
+								}
+							}
+						}
+					}
+
+					
+				}
 			}
 		}
 	}
-
-	.text-container {
-		padding: 30px 15px 200px 15px;
-
-		.info-title {
-			font-size: 24pt;
-			font-weight: 300;
-			margin-bottom: 20px;
-			color: $primary-color;
-		}
-
-		.info-text {
-			max-width: 610px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
 }
-
-// @media (min-width: 768px) {
-//     header{
-//         height: 100vh;
-//         width: 25vw;
-//         position: fixed;
-//         z-index: 1040;
-//         left: 0px;
-//         right: auto;
-//         top: 0px;
-//         bottom: 0px;
-//         background-size: cover;
-//         background-position: 5% 100%;
-//         -webkit-transition: all ease 0.5s;
-//         transition: all ease 0.5s;
-//         -webkit-animation: bgMoving infinite 30s;
-//         animation: bgMoving infinite 30s;
-
-
-//     }
-
-//     #additionalInfo{
-//         display: block;
-//         padding-top: 35px;
-//         padding-bottom: 0px;
-//     }
-// }
-
-// @media (min-width: 992px) {
-//     header{
-//         width: 217pt;
-//     }
-
-//     #additionalInfo{
-//         padding: 30px 25px 0pt 25px;
-//     }
-// }
