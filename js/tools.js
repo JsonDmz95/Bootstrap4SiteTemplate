@@ -41,7 +41,8 @@ $(window).scroll(function() {
         }
     });
 });
-$('.scroll-to, .navbar-nav li a, .local-scroll').click(function(e) {
+
+$('.local-scroll').click(function(e) {
     var jump = $(this).attr('href');
     var position = $(jump).offset();
     $('body, html').stop().animate({
@@ -49,63 +50,6 @@ $('.scroll-to, .navbar-nav li a, .local-scroll').click(function(e) {
     }, 1000);
     e.preventDefault();
 });
-
-(function() {
-    $('.multiple-item .item').each(function() {
-        var itemToClone = $(this);
-
-        for (var i = 1; i < 4; i++) {
-            itemToClone = itemToClone.next();
-
-            // wrap around if at end of item collection
-            if (!itemToClone.length) {
-                itemToClone = $(this).siblings(':first');
-            }
-
-            // grab item, clone, add marker class, add to collection
-            itemToClone.children(':first-child').clone()
-            .addClass("cloneditem-" + (i))
-            .appendTo($(this));
-        }
-    });
-
-    $('.carousel-testimonial').each(function(){
-        $(this).carousel({interval: $(this).data("interval")}).on('slide.bs.carousel', function(e) {
-            var nextH = $(e.relatedTarget).height();
-            $(this).find('.item.active').parent().animate({
-                height: nextH
-            }, $(this).data("adjust"));
-        });
-    });
-
-}());
-
-$(document).ready(function() {
-
-  $("input.form-control").on("keyup change", function() {
-    // If empty
-    if($(this).val() == ""){
-      $(this).removeClass("with-value"); // Remove class
-    }
-
-    else{
-      $(this).addClass("with-value"); // Add class
-    }
-  });
-
-  $("textarea.form-control").on("keyup change", function() {
-    // If empty
-    if($(this).val() == ""){
-      $(this).removeClass("with-value"); // Remove class
-    }
-
-    else{
-      $(this).addClass("with-value"); // Add class
-    }
-  });
-
-});
-
 
 // $(window).load(function() {
 //   setTimeout(function() {
